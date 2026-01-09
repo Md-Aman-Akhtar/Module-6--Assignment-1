@@ -155,10 +155,12 @@ button:hover{
 .card {
     background: white;   
     width: 205px;
-    border-radius: 10px;
+    border-radius: 10px 10px 0 0;
     padding: 40px 30px;
     text-align: center;
-    box-shadow: 0 10px 40px #0000001a;
+    box-shadow: 0 -8px 10px #0000001a;
+    margin-bottom: 0;
+    padding-bottom: 5px;
 }
 
 
@@ -190,4 +192,58 @@ button:hover{
     font-size: 16px;
     font-family: calibri;
     font-size: 14px;
+}
+
+.second-brain{
+    display: flex;
+    align-items: center;
+    padding: 60px;
+}
+
+.left, .right{
+    width: 50%;
+}
+
+.left img{
+    width: 450px;
+    height: 450px;
+    padding-left: 135px;
+}
+
+.right{
+    padding-right: 130px;
+}
+
+.solution{
+    color: green;
+}
+
+.right h1{
+    padding-top: 10px;
+    font-size: 40px;
+    font-family: calibri;
+}
+
+.right p{
+    padding-top: 15px;
+    font-family: calibri;
+    font-size: 15px;
+
+}
+
+.list{
+    padding-top: 30px;
+    list-style: none;
+}
+
+.list li{
+    display: flex;
+    gap: 7px;
+    margin-bottom: 8px;
+    align-items: center;
+}
+
+.list icon{
+    width: 14px;
+    height: 14px;
 }
