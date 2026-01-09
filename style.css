@@ -1,0 +1,40 @@
+.navbar{
+    display:flex;
+    gap: 380px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    height: 92px;
+
+}
+
+.menu{
+    list-style: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: calibri;
+
+}
+
+button{
+    padding: 12px 18px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+button:hover{
+    background-color: darkgreen;
+}
